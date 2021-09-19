@@ -8,8 +8,7 @@ TO USE:
 
 
 
-# Code
-
+# code
 import json, os, sys
 sys.path.append(os.path.abspath(os.curdir))
 sys.path.append(os.path.join(os.path.dirname(__file__)))
@@ -84,12 +83,10 @@ if __name__ == "__main__":
     
     
     # requirement.txt
-    
     - pandas==1.1.5
     - requests==2.25.1
     - numpy==1.19.4
     
     # gitignore
-    
     - src/data/data2.json
     - src/modules
